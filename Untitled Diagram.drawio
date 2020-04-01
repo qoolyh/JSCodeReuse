@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2020-04-01T15:43:04.844Z" agent="5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" version="12.9.5" etag="msZ_EzpVRSecwuZBiSVz" type="github"><diagram id="IgVOSABu9PIWdaxkEivF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-04-01T17:31:50.504Z" agent="5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="CPDu3bFfPnc-17LERItS" version="12.9.5" type="github">
+  <diagram id="IgVOSABu9PIWdaxkEivF" name="Page-1">
+    <mxGraphModel dx="1292" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qQKk_Hukkja--lJzfdSc-3" value="&lt;pre style=&quot;font-size: 9.8pt&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;...&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;jQuery.extend(jQuery.easing, {&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    def: &#39;easeOutQuad&#39;,&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    swing: function (x, t, b, c, d) {&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;        return jQuery.easing[jQuery.easing.def](x, t, b, c, d);&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    },&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    easeInQuad: function (x, t, b, c, d) {},&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    easeOutQuad: function (x, t, b, c, d) {&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;        return ((-c * (t /= d)) * (t - 2)) + b;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    },&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    easeInOutQuad: function (x, t, b, c, d) {},&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    easeInCubic: function (x, t, b, c, d) {},&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;   ...&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;});&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;$(document).ready(function () {&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    $(&#39;a[rel=external]&#39;);&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    $(&#39;#portfolio .index a&#39;).each(function (i, link) {&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;        $(link).click(function (e) {&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;        });&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    });&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    $(&#39;#news li a&#39;).click(function (e) {});&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    $(&#39;#news-article .close&#39;).live(&#39;click&#39;, function (e) {});&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    $(&#39;#news-article .arrow&#39;).live(&#39;click&#39;, function (e) {});&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    $(&#39;#footer .interactive&#39;).hover(function (){}, function () {&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    });&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;    ...&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;});&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;Courier New&quot;&gt;...&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="700" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-38" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Event handlers&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Arrays&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="653" y="112" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="100" width="690" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-5" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#007FFF;strokeColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="430" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-6" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#007FFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="446" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-7" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#007FFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="461" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-8" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#007FFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="478" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-12" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="131" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-13" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="157" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-16" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#007FFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="493" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-17" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#007FFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="381" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-18" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="142" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-19" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="189" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-20" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="173" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-21" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="221" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-22" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="205" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-23" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="254" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-24" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="238" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-30" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="286" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-31" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="270" width="9" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qQKk_Hukkja--lJzfdSc-33" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#007FFF;strokeColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="145" width="9" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
